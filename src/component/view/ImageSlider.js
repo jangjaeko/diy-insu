@@ -9,7 +9,7 @@ export default function ImageSlider() {
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          style={{ height: "40vh" }}
+          style={{ height: "70vh" }}
           src={image1}
           alt="First slide"
         />
@@ -21,7 +21,7 @@ export default function ImageSlider() {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100 "
-          style={{ height: "40vh" }}
+          style={{ height: "70vh" }}
           src={image2}
           alt="Second slide"
         />
@@ -33,7 +33,7 @@ export default function ImageSlider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{ height: "40vh" }}
+          style={{ height: "70vh" }}
           src={image3}
           alt="Third slide"
         />
